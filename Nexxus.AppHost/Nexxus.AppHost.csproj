@@ -14,4 +14,8 @@
         <PackageReference Include="Aspire.Hosting.AWS" Version="9.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Persona.API\Persona.API.csproj" />
+    </ItemGroup>
+
 </Project>
