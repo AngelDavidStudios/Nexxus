@@ -10,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 
 // Aspire Service
 builder.AddServiceDefaults();
