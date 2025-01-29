@@ -1,4 +1,3 @@
-using Amazon.DynamoDBv2.DataModel;
 using Microsoft.AspNetCore.Mvc;
 using Persona.API.Models;
 using Persona.API.Repository.Interfaces;

@@ -10,5 +10,6 @@ var awsConfig = builder.AddAWSSDKConfig()
 var apiPersona = builder.AddProject<Projects.Persona_API>("persona-api");
 var apiUsuario = builder.AddProject<Projects.Usuario_API>("usuario-api");
 var apiEmpleado = builder.AddProject<Projects.Empleado_API>("empleado-api");
+var apiParametro = builder.AddProject<Projects.Parametros_API>("parametro-api");
 
 builder.Build().Run();
