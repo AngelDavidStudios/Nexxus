@@ -8,5 +8,6 @@ var awsConfig = builder.AddAWSSDKConfig()
                         .WithRegion(RegionEndpoint.USEast1);
 
 var apiPersona = builder.AddProject<Projects.Persona_API>("persona-api");
+var apiUsuario = builder.AddProject<Projects.Usuario_API>("usuario-api");
 
 builder.Build().Run();
